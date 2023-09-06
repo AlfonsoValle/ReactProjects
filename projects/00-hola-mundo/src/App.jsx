@@ -7,13 +7,13 @@ export function App() {
     const formatUserName = (userName) => `@${userName}`
     return (
         <section className="App">
-            <TwitterFollowCard formatUserName={formatUserName} isFollowing userName="Valle_avs" >
+            <TwitterFollowCard formatUserName={formatUserName} userName="Valle_avs" >
                 Alfonso 
             </TwitterFollowCard>
-            <TwitterFollowCard isFollowing={false} userName="midudev"  >
+            <TwitterFollowCard  userName="midudev"  >
             Midu 
             </TwitterFollowCard >
-            <TwitterFollowCard isFollowing userName="MoureDev">
+            <TwitterFollowCard  userName="MoureDev">
             Moure 
             </TwitterFollowCard>
 
